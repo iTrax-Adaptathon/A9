@@ -1,0 +1,53 @@
+.form-section {
+    display: none;
+    background: white;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+    color: #312e81;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 500px;
+}
+
+.form-section label {
+    font-weight: bold;
+    color: #374151;
+}
+
+.form-section input {
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.form-section input:focus {
+    outline: none;
+    border-color: #4f46e5;
+}
+.appointment-item {
+    background: #eef2ff;
+    border-left: 5px solid #4f46e5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.appointment-item h3 {
+    color: #312e81;
+    margin-bottom: 12px;
+}
+
+.appointment-item p {
+    margin: 8px 0;
+    color: #4b5563;
+}
