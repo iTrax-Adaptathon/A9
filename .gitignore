@@ -1,0 +1,95 @@
+# ================================
+# Dependencies
+# ================================
+
+backend/target/
+electron/node_modules/
+frontend/node_modules/
+
+
+# ================================
+# Frontend / Vite
+# ================================
+
+frontend/dist/
+frontend/.vite/
+
+
+# ================================
+# Electron
+# ================================
+
+electron/dist/
+electron/out/
+electron/build/
+electron/release/
+
+
+# ================================
+# Environment variables / secrets
+# ================================
+
+.env
+.env.*
+!.env.example
+
+backend/.env
+backend/.env.*
+electron/.env
+electron/.env.*
+frontend/.env
+frontend/.env.*
+
+# ================================
+# Logs
+# ================================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ================================
+# Java / Maven
+# ================================
+
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+backend/target/
+
+
+# ================================
+# IDE / Editor
+# ================================
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+.idea/
+*.iml
+
+# ================================
+# OS files
+# ================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ================================
+# Temporary files
+# ================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~

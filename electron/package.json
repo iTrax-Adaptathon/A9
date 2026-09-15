@@ -1,0 +1,12 @@
+{
+  "name": "syncslot-electron",
+  "version": "0.0.1",
+  "description": "SyncSlot desktop shell (Electron)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^31.3.0"
+  }
+}
