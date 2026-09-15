@@ -211,15 +211,15 @@ SynCal/
 ## Tech Stack
 
 **Frontend:** React 18, JSX, Vite, HTML5/CSS3
----
+
 **Backend:** Java 17, Spring Boot 3.3, Spring Data JPA, Hibernate, Maven
----
+
 **Database:** H2 (default), MySQL (optional)
----
+
 **Desktop:** Electron
----
+
 **Testing:** JUnit, Spring Boot Test, MockMvc
----
+
 **Intelligence:** Rule-based scheduling, conflict detection, ranked slot selection, bounded cascades, AI-assisted summaries with deterministic fallback
 
 ---
